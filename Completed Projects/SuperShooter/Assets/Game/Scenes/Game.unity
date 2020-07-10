@@ -11261,7 +11261,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200601575}
-  m_LocalRotation: {x: -0.0000000026939542, y: 0.973249, z: -0.22975291, w: -0.000000011507082}
+  m_LocalRotation: {x: -6.96069e-10, y: 0.973249, z: -0.22975294, w: -0.0000000030439062}
   m_LocalPosition: {x: 104.23, y: 20.359001, z: 110.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -13485,6 +13485,7 @@ GameObject:
   - component: {fileID: 1368832393}
   - component: {fileID: 1368832395}
   - component: {fileID: 1368832394}
+  - component: {fileID: 1368832396}
   m_Layer: 5
   m_Name: BossHealthBar
   m_TagString: Untagged
@@ -13549,6 +13550,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1368832392}
   m_CullTransparentMesh: 0
+--- !u!114 &1368832396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368832392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42d288063c9ef9244a9221824a000f43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLife: {fileID: 1491850190}
 --- !u!1001 &1388406936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16389,7 +16403,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1874553651}
-  m_LocalRotation: {x: -0.0000000026939542, y: 0.973249, z: -0.22975291, w: -0.000000011507082}
+  m_LocalRotation: {x: -6.96069e-10, y: 0.973249, z: -0.22975294, w: -0.0000000030439062}
   m_LocalPosition: {x: 104.23, y: 20.359001, z: 110.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
