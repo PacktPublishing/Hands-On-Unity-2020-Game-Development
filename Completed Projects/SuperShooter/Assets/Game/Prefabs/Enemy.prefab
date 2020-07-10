@@ -65,10 +65,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09f830717a318ab45b39f71ba512294f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentState: 0
   bulletPrefab: {fileID: 3101012527787152817, guid: 07e002f5b439d854a942a323ffced8c7,
     type: 3}
   fireRate: 1
-  currentState: 0
   sightSensor: {fileID: 4699138548388154457}
   baseAttackDistance: 2
   playerAttackDistance: 3
@@ -143,6 +143,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90cc319b0e674458bcd658b01ceaa0bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2814019051254672755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6022829422493400664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fedb9647df1afcd45965449d28ea339f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &5589280526255460023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,18 +204,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &2814019051254672755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6022829422493400664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fedb9647df1afcd45965449d28ea339f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &6022829422493366580
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -691,6 +691,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 67bca27f4ce986447ba1f9d4c795a365, type: 2}
+    - target: {fileID: 13700000, guid: a67db89bdee18f241927d32f2379ded1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c39db265ea1794f4c9906fe3fb906934, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a67db89bdee18f241927d32f2379ded1, type: 3}
 --- !u!1 &6022829422493400664 stripped

@@ -51,13 +51,6 @@
 
         void OnDrawGizmos()
         {
-            StringBuilder builder = new StringBuilder();
-            builder.Append("My ");
-            builder.Append("name ");
-            builder.Append("is ");
-            builder.Append("Neo.");
-            print(builder.ToString()); //My name is Neo.
-
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(transform.position, distance);
 
