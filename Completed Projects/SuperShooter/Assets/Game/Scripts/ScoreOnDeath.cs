@@ -1,21 +1,17 @@
-﻿
-    using System;
-    using UnityEngine;
+﻿using UnityEngine;
 
-    public class ScoreOnDeath : MonoBehaviour
+public class ScoreOnDeath : MonoBehaviour
+{
+    public int amount;
+
+    void Awake()
     {
-        public int amount;
-
-        void Awake()
-        {
-            var life = GetComponent<Life>();
-            life.onDeath.AddListener(GivePoints);
-        }
-
-        void GivePoints()
-        {
-            ScoreManager.instance.amount += amount;
-        }
+        var life = GetComponent<Life>();
+        life.onDeath.AddListener(GivePoints);
     }
-    
-    
+
+    void GivePoints()
+    {
+        ScoreManager.instance.amount += amount;
+    }
+}

@@ -1,21 +1,19 @@
-﻿
-    using UnityEngine;
-    using UnityEngine.UI;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
-    public class ScoreUI : MonoBehaviour
+public class ScoreUI : MonoBehaviour
+{
+    Text text;
+
+    void Awake()
     {
-        Text text;
-
-        void Awake()
-        {
-            text = GetComponent<Text>();
-        }
-
-        void Update()
-        {
-            text.text = "Score: " + ScoreManager.instance.amount;
-        }
+        text = GetComponent<Text>();
     }
-    
-    
-    
+
+    void Update()
+    {
+        text.text = "Score: " + ScoreManager.instance.amount;
+    }
+}
+
+

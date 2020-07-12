@@ -1,16 +1,15 @@
-using System;
 using UnityEngine;
 
-    public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour
+{
+    void Start()
     {
-        void Start()
-        {
-            EnemyManager.instance.AddEnemy(this);
-        }
-        
-        void OnDestroy()
-        {
-            EnemyManager.instance.RemoveEnemy(this);
-        }
+        EnemyManager.instance.AddEnemy(this);
     }
+    
+    void OnDestroy()
+    {
+        EnemyManager.instance.RemoveEnemy(this);
+    }
+}
 

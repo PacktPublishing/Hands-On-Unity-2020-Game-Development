@@ -1,22 +1,19 @@
-﻿
-    using UnityEngine;
-    using UnityEngine.UI;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
-    public class QuitButton : MonoBehaviour
+public class QuitButton : MonoBehaviour
+{
+    Button button;
+
+    void Awake()
     {
-        Button button;
-
-        void Awake()
-        {
-            button = GetComponent<Button>();
-            button.onClick.AddListener(Quit);
-        }
-
-        void Quit()
-        {
-            print("Quitting");
-            Application.Quit();
-        }
+        button = GetComponent<Button>();
+        button.onClick.AddListener(Quit);
     }
 
-
+    void Quit()
+    {
+        print("Quitting");
+        Application.Quit();
+    }
+}

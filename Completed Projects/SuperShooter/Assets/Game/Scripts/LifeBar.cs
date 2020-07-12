@@ -1,22 +1,19 @@
-﻿   
- 
+﻿using UnityEngine;
+using UnityEngine.UI;
 
-    using UnityEngine;
-    using UnityEngine.UI;
+public class LifeBar : MonoBehaviour
+{
+    Image image;
+    public Life targetLife;
 
-    public class LifeBar : MonoBehaviour
+    void Awake()
     {
-        Image image;
-        public Life targetLife;
-
-        void Awake()
-        {
-            image = GetComponent<Image>();
-        }
-
-        void Update()
-        {
-            image.fillAmount = targetLife.amount / 100;
-        }
+        image = GetComponent<Image>();
     }
+
+    void Update()
+    {
+        image.fillAmount = targetLife.amount / 100;
+    }
+}
 

@@ -1,23 +1,17 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
+public class Life : MonoBehaviour
+{
+    public float amount;
+    public UnityEvent onDeath;
 
-    public class Life : MonoBehaviour
+    void Update()
     {
-        public float amount;
-        public UnityEvent onDeath;
-
-        void Update()
+        if (amount <= 0)
         {
-            if (amount <= 0)
-            {
-                onDeath.Invoke();
-                Destroy(gameObject);
-            }
+            onDeath.Invoke();
+            Destroy(gameObject);
         }
     }
-
-
+}
