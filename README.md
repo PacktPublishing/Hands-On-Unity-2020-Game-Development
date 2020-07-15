@@ -16,7 +16,7 @@ This book covers the following exciting features:
 * Implement postprocessing to increase graphics quality with full-screen effects
 * Create rich particle systems for your Unity games from scratch
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/dp/10DigitISBN) today!
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1838642005) today!
 
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" alt="https://www.packtpub.com/" border="5" /></a>
 
