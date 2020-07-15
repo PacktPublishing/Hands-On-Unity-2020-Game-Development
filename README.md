@@ -4,7 +4,7 @@
 
 This is the code repository for [Hands-On Unity 2020 Game Development](https://www.packtpub.com/game-development/hands-on-unity-2020-game-development?utm_source=github&utm_medium=repository&utm_campaign=9781838642006), published by Packt.
 
-**Build, customize, and optimize professional games using Unity 2020 and C#*
+**Build, customize, and optimize professional games using Unity 2020 and C#**
 
 ## What is this book about?
 Over the years, the Unity game engine has extended its scope from just creating video games to building AR/VR experiences, complex simulations, real-time realistic rendering, films, and serious games for training and education. Its features for implementing gameplay, graphics, and customization using C# programming make Unity a comprehensive platform for developing professional-level, rich experiences.
@@ -44,7 +44,9 @@ With the following software and hardware list you can run all code files present
 
 
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [https://static.packt-cdn.com/downloads/9781838642006_ColorImages.pdf](Graphics Bundle Link).
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [https://static.packt-cdn.com/downloads/9781838642006_ColorImages.pdf]
+
+(Graphics Bundle Link).
 
 ### Related products <Other books you may enjoy>
 * Unity Certified Programmer: Exam Guide [[Packt]](https://www.packtpub.com/game-development/unity-certified-programmer-study-guide?utm_source=github&utm_medium=repository&utm_campaign=9781838828424) [[Amazon]](https://www.amazon.com/dp/1838828427)
