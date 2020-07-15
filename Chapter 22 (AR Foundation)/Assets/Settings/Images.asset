@@ -19,9 +19,9 @@ MonoBehaviour:
       m_GuidLow: 5600026645879420828
       m_GuidHigh: 11210409641912668033
     m_SerializedTextureGuid:
-      m_GuidLow: 10702734691973189173
-      m_GuidHigh: 13863664228220244840
-    m_Size: {x: 0.45502993, y: 0.16412771}
+      m_GuidLow: 11327865365571542219
+      m_GuidHigh: 314799259734761368
+    m_Size: {x: 0.45502993, y: 0.3192001}
     m_SpecifySize: 1
     m_Name: Official_unity_logo
     m_Texture: {fileID: 0}

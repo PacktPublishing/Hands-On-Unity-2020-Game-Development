@@ -14,6 +14,10 @@
         void Spawn()
         {
             var obj = Instantiate(prefab, transform.position, transform.rotation);
-            Physics.IgnoreCollision(GetComponentInChildren<Collider>(), obj.GetComponentInChildren<Collider>());
+
+	    if(GetComponentInChildren<Collider>() != null && obj.GetComponentInChildren<Collider>() != null)
+	    {
+                Physics.IgnoreCollision(GetComponentInChildren<Collider>(), obj.GetComponentInChildren<Collider>());
+	    }
         }
     }
