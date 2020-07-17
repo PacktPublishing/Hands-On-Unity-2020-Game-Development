@@ -1,14 +1,13 @@
-﻿    
-    using UnityEngine;
+﻿using UnityEngine;
 
-    public class PlayerManager : MonoBehaviour
+public class PlayerManager : MonoBehaviour
+{
+    public static PlayerManager instance;
+
+    void Awake()
     {
-        public static PlayerManager instance;
-
-        void Awake()
-        {
-            instance = this;
-        }
+        instance = this;
     }
+}
 
 

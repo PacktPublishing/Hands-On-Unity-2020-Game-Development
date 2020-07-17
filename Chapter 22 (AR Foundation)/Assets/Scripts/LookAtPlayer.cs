@@ -1,15 +1,13 @@
-﻿
+﻿using UnityEngine;
 
-    using UnityEngine;
-
-    public class LookAtPlayer : MonoBehaviour
+public class LookAtPlayer : MonoBehaviour
+{
+    void Update()
     {
-        void Update()
-        {
-            if(PlayerManager.instance == null) return;
+        if(PlayerManager.instance == null) return;
 
-            transform.forward = PlayerManager.instance.transform.position - transform.position;
-        }
+        transform.forward = PlayerManager.instance.transform.position - transform.position;
     }
+}
 
 

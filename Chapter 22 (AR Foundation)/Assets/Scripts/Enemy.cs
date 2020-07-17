@@ -1,16 +1,15 @@
-﻿    
-    using UnityEngine;
+﻿using UnityEngine;
 
-    public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour
+{
+    void OnEnable()
     {
-        void OnEnable()
-        {
-            EnemyManager.instance.all.Add(this);
-        }
-
-        void OnDisable()
-        {
-            EnemyManager.instance.all.Remove(this);
-        }
+        EnemyManager.instance.all.Add(this);
     }
+
+    void OnDisable()
+    {
+        EnemyManager.instance.all.Remove(this);
+    }
+}
 

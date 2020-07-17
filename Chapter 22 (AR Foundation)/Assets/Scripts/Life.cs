@@ -1,15 +1,13 @@
-﻿    
+﻿using UnityEngine;
 
-    using UnityEngine;
+public class Life : MonoBehaviour
+{
+    public int amount;
 
-    public class Life : MonoBehaviour
+    public void Damage(int damageAmount)
     {
-        public int amount;
-
-        public void Damage(int damageAmount)
-        {
-            amount -= damageAmount;
-            if(amount <= 0)
-                Destroy(gameObject);
-        }
+        amount -= damageAmount;
+        if(amount <= 0)
+            Destroy(gameObject);
     }
+}
