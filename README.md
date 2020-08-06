@@ -46,7 +46,7 @@ With the following software and hardware list you can run all code files present
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. 
 
-[Click here to download it] (https://static.packt-cdn.com/downloads/9781838642006_ColorImages.pdf)
+[Click here to download it](https://static.packt-cdn.com/downloads/9781838642006_ColorImages.pdf)
 
 ### Related products <Other books you may enjoy>
 * Unity Certified Programmer: Exam Guide [[Packt]](https://www.packtpub.com/game-development/unity-certified-programmer-study-guide?utm_source=github&utm_medium=repository&utm_campaign=9781838828424) [[Amazon]](https://www.amazon.com/dp/1838828427)
